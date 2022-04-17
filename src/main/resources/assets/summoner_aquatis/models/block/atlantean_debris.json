@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "summoner_aquatis:blocks/cyan_colored_shell_side",
+    "particle": "summoner_aquatis:blocks/cyan_colored_shell_side"
+  }
+}

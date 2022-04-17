@@ -1,0 +1,92 @@
+{
+  "mod_elements": [
+    {
+      "name": "Orichalcum",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum"
+    },
+    {
+      "name": "OrichalcumOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atlantean_debris"
+    },
+    {
+      "name": "OrichalcumBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_block"
+    },
+    {
+      "name": "OrichalcumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_ore_block_recipe"
+    },
+    {
+      "name": "OrichalcumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_block_ore_recipe"
+    },
+    {
+      "name": "OrichalcumBar",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_bar"
+    },
+    {
+      "name": "OrichalcumBarRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orichalcum_bar_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.summoner_aquatis.orichalcum": "Atlantean Debris",
+      "block.summoner_aquatis.atlantean_debris": "Atlantean Debris",
+      "block.summoner_aquatis.orichalcum_block": "Block of Orichalcum",
+      "item.summoner_aquatis.orichalcum_bar": "Orichalcum Bar"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "summoner_aquatis",
+    "modName": "Summoner Aquatis",
+    "version": "1.0.0",
+    "author": "Owner, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.summoneraquatis",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

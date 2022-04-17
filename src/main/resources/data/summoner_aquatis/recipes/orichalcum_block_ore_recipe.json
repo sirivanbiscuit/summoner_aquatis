@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "summoner_aquatis:orichalcum_block"
+    }
+  ],
+  "result": {
+    "item": "summoner_aquatis:orichalcum_bar",
+    "count": 9
+  }
+}
