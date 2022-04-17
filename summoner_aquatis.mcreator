@@ -55,12 +55,21 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "orichalcum_bar_recipe"
+    },
+    {
+      "name": "SpongeDryer",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sponge_dryer"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.summoner_aquatis.sponge_dryer": "Sponge Dryer",
       "item.summoner_aquatis.orichalcum": "Atlantean Debris",
       "block.summoner_aquatis.atlantean_debris": "Atlantean Debris",
       "block.summoner_aquatis.orichalcum_block": "Block of Orichalcum",

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "summoner_aquatis:blocks/shittytempspongedryer",
+    "up": "summoner_aquatis:blocks/shittytempspongedryer",
+    "north": "summoner_aquatis:blocks/shittytempspongedryer",
+    "east": "summoner_aquatis:blocks/shittytempspongedryer",
+    "south": "summoner_aquatis:blocks/shittytempspongedryer",
+    "west": "summoner_aquatis:blocks/shittytempspongedryer",
+    "particle": "summoner_aquatis:blocks/shittytempspongedryer"
+  }
+}

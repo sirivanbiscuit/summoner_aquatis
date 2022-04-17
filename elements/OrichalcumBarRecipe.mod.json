@@ -5,7 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 2,
     "group": "",
     "recipeShapeless": true,
     "recipeSlots": [
@@ -16,7 +16,7 @@
         "value": "CUSTOM:Orichalcum"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Orichalcum"
       },
       {
         "value": "Items.SCUTE"
