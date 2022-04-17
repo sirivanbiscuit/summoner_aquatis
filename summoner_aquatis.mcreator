@@ -63,6 +63,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sponge_dryer"
+    },
+    {
+      "name": "Amongus",
+      "type": "tab",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongus"
     }
   ],
   "variable_elements": [],
@@ -71,6 +79,7 @@
     "en_us": {
       "block.summoner_aquatis.sponge_dryer": "Sponge Dryer",
       "item.summoner_aquatis.orichalcum": "Atlantean Debris",
+      "itemGroup.tabamongus": "Amongus",
       "block.summoner_aquatis.atlantean_debris": "Atlantean Debris",
       "block.summoner_aquatis.orichalcum_block": "Block of Orichalcum",
       "item.summoner_aquatis.orichalcum_bar": "Orichalcum Bar"
