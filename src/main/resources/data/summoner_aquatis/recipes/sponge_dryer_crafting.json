@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dark_prismarine"
+    },
+    "1": {
+      "item": "summoner_aquatis:orichalcum_bar"
+    },
+    "2": {
+      "item": "minecraft:dark_prismarine"
+    },
+    "3": {
+      "item": "minecraft:magma_block"
+    },
+    "4": {
+      "item": "minecraft:furnace"
+    },
+    "5": {
+      "item": "minecraft:magma_block"
+    },
+    "6": {
+      "item": "minecraft:dark_prismarine"
+    },
+    "7": {
+      "item": "summoner_aquatis:orichalcum_bar"
+    },
+    "8": {
+      "item": "minecraft:dark_prismarine"
+    }
+  },
+  "result": {
+    "item": "summoner_aquatis:sponge_dryer",
+    "count": 1
+  }
+}
