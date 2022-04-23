@@ -82,6 +82,18 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -107,6 +119,58 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bottomless_bucket_full"
+    },
+    {
+      "name": "BottomlessBucketEmpty",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottomless_bucket_empty"
+    },
+    {
+      "name": "BottomlessBucketEmptyRightClickedInAir",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottomless_bucket_empty_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FillBottomlessBucket",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fill_bottomless_bucket"
+    },
+    {
+      "name": "EmptyBottomlessBucket",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_bottomless_bucket"
+    },
+    {
+      "name": "CraftBottomlessBucket",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_bottomless_bucket"
     }
   ],
   "variable_elements": [],
@@ -115,6 +179,7 @@
     "en_us": {
       "block.summoner_aquatis.sponge_dryer": "Dehydrator",
       "item.summoner_aquatis.orichalcum": "Atlantean Debris",
+      "item.summoner_aquatis.bottomless_bucket_empty": "Bottomless Bucket (Empty)",
       "item.summoner_aquatis.bottomless_bucket_full": "Bottomless Bucket (Full)",
       "block.summoner_aquatis.atlantean_debris": "Atlantean Debris",
       "block.summoner_aquatis.orichalcum_block": "Block of Orichalcum",

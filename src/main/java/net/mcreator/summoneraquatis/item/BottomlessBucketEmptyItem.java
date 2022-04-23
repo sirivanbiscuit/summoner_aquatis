@@ -7,8 +7,10 @@ import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Hand;
 import net.minecraft.util.Direction;
 import net.minecraft.util.ActionResultType;
+import net.minecraft.util.ActionResult;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemUseContext;
 import net.minecraft.item.ItemStack;
@@ -18,7 +20,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.summoneraquatis.procedures.BottomlessBucketFullRightClickedOnBlockProcedure;
+import net.mcreator.summoneraquatis.procedures.BottomlessBucketEmptyRightClickedInAirProcedure;
 import net.mcreator.summoneraquatis.SummonerAquatisModElements;
 
 import java.util.stream.Stream;
@@ -28,12 +30,12 @@ import java.util.HashMap;
 import java.util.AbstractMap;
 
 @SummonerAquatisModElements.ModElement.Tag
-public class BottomlessBucketFullItem extends SummonerAquatisModElements.ModElement {
-	@ObjectHolder("summoner_aquatis:bottomless_bucket_full")
+public class BottomlessBucketEmptyItem extends SummonerAquatisModElements.ModElement {
+	@ObjectHolder("summoner_aquatis:bottomless_bucket_empty")
 	public static final Item block = null;
 
-	public BottomlessBucketFullItem(SummonerAquatisModElements instance) {
-		super(instance, 10);
+	public BottomlessBucketEmptyItem(SummonerAquatisModElements instance) {
+		super(instance, 11);
 	}
 
 	@Override
@@ -44,7 +46,7 @@ public class BottomlessBucketFullItem extends SummonerAquatisModElements.ModElem
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.TOOLS).maxStackSize(1).rarity(Rarity.COMMON));
-			setRegistryName("bottomless_bucket_full");
+			setRegistryName("bottomless_bucket_empty");
 		}
 
 		@Override
@@ -65,8 +67,23 @@ public class BottomlessBucketFullItem extends SummonerAquatisModElements.ModElem
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Dispenses infinite water"));
-			list.add(new StringTextComponent("Craft to empty"));
+			list.add(new StringTextComponent("Absorbs an infinite amount of water"));
+			list.add(new StringTextComponent("Craft to fill"));
+			list.add(new StringTextComponent("Only useable in main hand"));
+		}
+
+		@Override
+		public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
+			ActionResult<ItemStack> ar = super.onItemRightClick(world, entity, hand);
+			ItemStack itemstack = ar.getResult();
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
+
+			BottomlessBucketEmptyRightClickedInAirProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			return ar;
 		}
 
 		@Override
@@ -82,11 +99,9 @@ public class BottomlessBucketFullItem extends SummonerAquatisModElements.ModElem
 			int z = pos.getZ();
 			ItemStack itemstack = context.getItem();
 
-			BottomlessBucketFullRightClickedOnBlockProcedure.executeProcedure(Stream
-					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
-							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("blockstate", blockstate),
-							new AbstractMap.SimpleEntry<>("direction", direction), new AbstractMap.SimpleEntry<>("entity", entity))
-					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			BottomlessBucketEmptyRightClickedInAirProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			return retval;
 		}
 	}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "summoner_aquatis:orichalcum_bar"
+    },
+    "2": {
+      "item": "summoner_aquatis:orichalcum_bar"
+    },
+    "4": {
+      "item": "summoner_aquatis:orichalcum_bar"
+    }
+  },
+  "result": {
+    "item": "summoner_aquatis:bottomless_bucket_empty",
+    "count": 1
+  }
+}

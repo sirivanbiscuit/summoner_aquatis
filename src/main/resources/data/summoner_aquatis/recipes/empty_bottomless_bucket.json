@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "summoner_aquatis:bottomless_bucket_full"
+    }
+  ],
+  "result": {
+    "item": "summoner_aquatis:bottomless_bucket_empty",
+    "count": 1
+  }
+}
