@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "summoner_aquatis:block/sponge_dryer"
+    },
+    "facing=east": {
+      "model": "summoner_aquatis:block/sponge_dryer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "summoner_aquatis:block/sponge_dryer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "summoner_aquatis:block/sponge_dryer",
+      "y": 270
     }
   }
 }
