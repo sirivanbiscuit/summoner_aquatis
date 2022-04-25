@@ -29,10 +29,10 @@
           "inputLimit": {
             "value": ""
           },
-          "id": 0,
+          "id": 1,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
-          "name": "Slot #0",
+          "name": "Slot #1",
           "x": 168,
           "y": 62
         }
@@ -43,10 +43,10 @@
           "inputLimit": {
             "value": ""
           },
-          "id": 1,
+          "id": 0,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
-          "name": "Slot #1",
+          "name": "Slot #0",
           "x": 168,
           "y": 98
         }

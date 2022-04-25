@@ -118,9 +118,9 @@ public class DehydratorUIGui extends SummonerAquatisModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 43, 26) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 43, 26) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 43, 62) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 43, 62) {
 			}));
 			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 115, 44) {
 				@Override

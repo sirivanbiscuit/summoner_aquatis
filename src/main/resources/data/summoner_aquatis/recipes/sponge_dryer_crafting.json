@@ -7,31 +7,31 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:dark_prismarine"
+      "item": "minecraft:prismarine"
     },
     "1": {
-      "item": "summoner_aquatis:orichalcum_bar"
+      "item": "minecraft:sea_lantern"
     },
     "2": {
-      "item": "minecraft:dark_prismarine"
+      "item": "minecraft:prismarine"
     },
     "3": {
-      "item": "minecraft:magma_block"
+      "item": "summoner_aquatis:orichalcum_bar"
     },
     "4": {
       "item": "minecraft:furnace"
     },
     "5": {
-      "item": "minecraft:magma_block"
-    },
-    "6": {
-      "item": "minecraft:dark_prismarine"
-    },
-    "7": {
       "item": "summoner_aquatis:orichalcum_bar"
     },
+    "6": {
+      "item": "minecraft:prismarine"
+    },
+    "7": {
+      "item": "minecraft:magma_block"
+    },
     "8": {
-      "item": "minecraft:dark_prismarine"
+      "item": "minecraft:prismarine"
     }
   },
   "result": {

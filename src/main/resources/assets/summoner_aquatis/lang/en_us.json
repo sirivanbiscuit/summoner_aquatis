@@ -3,7 +3,9 @@
   "item.summoner_aquatis.orichalcum": "Atlantean Debris",
   "item.summoner_aquatis.bottomless_bucket_empty": "Bottomless Bucket (Empty)",
   "item.summoner_aquatis.bottomless_bucket_full": "Bottomless Bucket (Full)",
+  "block.summoner_aquatis.dehydrator_off": "Dehydrator Off",
   "block.summoner_aquatis.atlantean_debris": "Atlantean Debris",
+  "block.summoner_aquatis.dehydrator_on": "Dehydrator Off",
   "block.summoner_aquatis.orichalcum_block": "Block of Orichalcum",
   "item.summoner_aquatis.orichalcum_bar": "Orichalcum Bar"
 }

@@ -10,31 +10,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.PRISMARINE#2"
+        "value": "Blocks.PRISMARINE"
+      },
+      {
+        "value": "Blocks.SEA_LANTERN"
+      },
+      {
+        "value": "Blocks.PRISMARINE"
       },
       {
         "value": "CUSTOM:OrichalcumBar"
-      },
-      {
-        "value": "Blocks.PRISMARINE#2"
-      },
-      {
-        "value": "Blocks.MAGMA"
       },
       {
         "value": "Blocks.FURNACE"
       },
       {
-        "value": "Blocks.MAGMA"
-      },
-      {
-        "value": "Blocks.PRISMARINE#2"
-      },
-      {
         "value": "CUSTOM:OrichalcumBar"
       },
       {
-        "value": "Blocks.PRISMARINE#2"
+        "value": "Blocks.PRISMARINE"
+      },
+      {
+        "value": "Blocks.MAGMA"
+      },
+      {
+        "value": "Blocks.PRISMARINE"
       }
     ],
     "recipeReturnStack": {

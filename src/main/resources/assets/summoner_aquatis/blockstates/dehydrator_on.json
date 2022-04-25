@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "summoner_aquatis:block/dehydrator_on"
+    },
+    "facing=east": {
+      "model": "summoner_aquatis:block/dehydrator_on",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "summoner_aquatis:block/dehydrator_on",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "summoner_aquatis:block/dehydrator_on",
+      "y": 270
+    }
+  }
+}

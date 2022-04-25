@@ -235,6 +235,93 @@
           }
         ]
       }
+    },
+    {
+      "name": "DehydratorSmelt",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dehydrator_smelt",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "DehydratorOff",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dehydrator_off"
+    },
+    {
+      "name": "DehydratorOn",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dehydrator_on"
+    },
+    {
+      "name": "DehydratorFuel",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dehydrator_fuel",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DehydratorKelpSmelt",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dehydrator_kelp_smelt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -245,7 +332,9 @@
       "item.summoner_aquatis.orichalcum": "Atlantean Debris",
       "item.summoner_aquatis.bottomless_bucket_empty": "Bottomless Bucket (Empty)",
       "item.summoner_aquatis.bottomless_bucket_full": "Bottomless Bucket (Full)",
+      "block.summoner_aquatis.dehydrator_off": "Dehydrator Off",
       "block.summoner_aquatis.atlantean_debris": "Atlantean Debris",
+      "block.summoner_aquatis.dehydrator_on": "Dehydrator Off",
       "block.summoner_aquatis.orichalcum_block": "Block of Orichalcum",
       "item.summoner_aquatis.orichalcum_bar": "Orichalcum Bar"
     }
