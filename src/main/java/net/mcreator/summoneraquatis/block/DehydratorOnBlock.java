@@ -61,16 +61,20 @@ import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.summoneraquatis.procedures.DehydratorSmeltProcedure;
+import net.mcreator.summoneraquatis.procedures.DehydratorDryProcedure;
 import net.mcreator.summoneraquatis.gui.DehydratorUIGui;
 import net.mcreator.summoneraquatis.SummonerAquatisModElements;
 
 import javax.annotation.Nullable;
 
+import java.util.stream.Stream;
 import java.util.stream.IntStream;
 import java.util.Random;
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 import java.util.Collections;
+import java.util.AbstractMap;
 
 import io.netty.buffer.Unpooled;
 
@@ -103,7 +107,7 @@ public class DehydratorOnBlock extends SummonerAquatisModElements.ModElement {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 10).harvestLevel(0)
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 15).harvestLevel(0)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 			setRegistryName("dehydrator_on");
@@ -172,7 +176,10 @@ public class DehydratorOnBlock extends SummonerAquatisModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 
-			DehydratorSmeltProcedure.executeProcedure(Collections.EMPTY_MAP);
+			DehydratorDryProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			world.getPendingBlockTicks().scheduleTick(pos, this, 1);
 		}
 
@@ -190,9 +197,9 @@ public class DehydratorOnBlock extends SummonerAquatisModElements.ModElement {
 					double d1 = (y + random.nextFloat());
 					double d2 = (z + random.nextFloat());
 					int i1 = random.nextInt(2) * 2 - 1;
-					double d3 = (random.nextFloat() - 0.5D) * 0.5D;
-					double d4 = (random.nextFloat() - 0.5D) * 0.5D;
-					double d5 = (random.nextFloat() - 0.5D) * 0.5D;
+					double d3 = (random.nextFloat() - 0.5D) * 0.1D;
+					double d4 = (random.nextFloat() - 0.5D) * 0.1D;
+					double d5 = (random.nextFloat() - 0.5D) * 0.1D;
 					world.addParticle(ParticleTypes.FLAME, d0, d1, d2, d3, d4, d5);
 				}
 		}

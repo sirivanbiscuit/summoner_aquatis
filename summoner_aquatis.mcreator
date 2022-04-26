@@ -206,7 +206,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Shitty Methods"
     },
     {
       "name": "DehydratorDisplayTick",
@@ -234,18 +235,8 @@
             "type": "world"
           }
         ]
-      }
-    },
-    {
-      "name": "DehydratorSmelt",
-      "type": "procedure",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dehydrator_smelt",
-      "metadata": {
-        "dependencies": []
-      }
+      },
+      "path": "~/Shitty Methods"
     },
     {
       "name": "DehydratorOff",
@@ -301,9 +292,33 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
+            "name": "x",
+            "type": "number"
           },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DehydratorDry",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dehydrator_dry",
+      "metadata": {
+        "dependencies": [
           {
             "name": "x",
             "type": "number"
@@ -322,6 +337,66 @@
           }
         ]
       }
+    },
+    {
+      "name": "ShittyOricalcumArmor",
+      "type": "armor",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shitty_oricalcum_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ShittyOricalcumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shitty_oricalcum_armor_helmet_recipe"
+    },
+    {
+      "name": "ShittyOricalcumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shitty_oricalcum_armor_body_recipe"
+    },
+    {
+      "name": "ShittyOricalcumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shitty_oricalcum_armor_leggings_recipe"
+    },
+    {
+      "name": "ShittyOricalcumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shitty_oricalcum_armor_boots_recipe"
+    },
+    {
+      "name": "Atlantean",
+      "type": "armor",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atlantean",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [],
@@ -329,19 +404,32 @@
   "language_map": {
     "en_us": {
       "block.summoner_aquatis.sponge_dryer": "Dehydrator",
+      "item.summoner_aquatis.shitty_oricalcum_armor_leggings": "ShittyOricalcum Leggings",
+      "item.summoner_aquatis.bottomless_bucket_full": "Bottomless Bucket (Full)",
+      "item.summoner_aquatis.atlantean_boots": "Atlantean Boots",
+      "block.summoner_aquatis.dehydrator_off": "Dehydrator",
+      "block.summoner_aquatis.dehydrator_on": "Dehydrator Off",
+      "item.summoner_aquatis.atlantean_helmet": "Atlantean Helmet",
+      "item.summoner_aquatis.atlantean_leggings": "Atlantean Leggings",
+      "item.summoner_aquatis.shitty_oricalcum_armor_helmet": "ShittyOricalcum Helmet",
       "item.summoner_aquatis.orichalcum": "Atlantean Debris",
       "item.summoner_aquatis.bottomless_bucket_empty": "Bottomless Bucket (Empty)",
-      "item.summoner_aquatis.bottomless_bucket_full": "Bottomless Bucket (Full)",
-      "block.summoner_aquatis.dehydrator_off": "Dehydrator Off",
+      "item.summoner_aquatis.shitty_oricalcum_armor_chestplate": "ShittyOricalcum Chestplate",
+      "item.summoner_aquatis.atlantean_chestplate": "Atlantean Body",
       "block.summoner_aquatis.atlantean_debris": "Atlantean Debris",
-      "block.summoner_aquatis.dehydrator_on": "Dehydrator Off",
       "block.summoner_aquatis.orichalcum_block": "Block of Orichalcum",
-      "item.summoner_aquatis.orichalcum_bar": "Orichalcum Bar"
+      "item.summoner_aquatis.orichalcum_bar": "Orichalcum Bar",
+      "item.summoner_aquatis.shitty_oricalcum_armor_boots": "ShittyOricalcum Boots"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Shitty Methods",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "summoner_aquatis",

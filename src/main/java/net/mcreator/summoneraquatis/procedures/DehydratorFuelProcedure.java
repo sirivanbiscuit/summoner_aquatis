@@ -60,7 +60,7 @@ public class DehydratorFuelProcedure {
 				TileEntity _tileEntity = world.getTileEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_tileEntity != null)
-					_tileEntity.getTileData().putDouble("burnTime", 800);
+					_tileEntity.getTileData().putDouble("burnTime", 1600);
 				if (world instanceof World)
 					((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 			}

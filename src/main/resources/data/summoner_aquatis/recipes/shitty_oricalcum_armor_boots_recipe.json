@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "summoner_aquatis:orichalcum_bar"
+    },
+    "2": {
+      "item": "summoner_aquatis:orichalcum_bar"
+    },
+    "3": {
+      "item": "summoner_aquatis:orichalcum_bar"
+    },
+    "5": {
+      "item": "summoner_aquatis:orichalcum_bar"
+    }
+  },
+  "result": {
+    "item": "summoner_aquatis:shitty_oricalcum_armor_boots",
+    "count": 1
+  }
+}

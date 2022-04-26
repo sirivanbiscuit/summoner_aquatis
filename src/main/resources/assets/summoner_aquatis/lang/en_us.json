@@ -1,11 +1,19 @@
 {
   "block.summoner_aquatis.sponge_dryer": "Dehydrator",
+  "item.summoner_aquatis.shitty_oricalcum_armor_leggings": "ShittyOricalcum Leggings",
+  "item.summoner_aquatis.bottomless_bucket_full": "Bottomless Bucket (Full)",
+  "item.summoner_aquatis.atlantean_boots": "Atlantean Boots",
+  "block.summoner_aquatis.dehydrator_off": "Dehydrator",
+  "block.summoner_aquatis.dehydrator_on": "Dehydrator Off",
+  "item.summoner_aquatis.atlantean_helmet": "Atlantean Helmet",
+  "item.summoner_aquatis.atlantean_leggings": "Atlantean Leggings",
+  "item.summoner_aquatis.shitty_oricalcum_armor_helmet": "ShittyOricalcum Helmet",
   "item.summoner_aquatis.orichalcum": "Atlantean Debris",
   "item.summoner_aquatis.bottomless_bucket_empty": "Bottomless Bucket (Empty)",
-  "item.summoner_aquatis.bottomless_bucket_full": "Bottomless Bucket (Full)",
-  "block.summoner_aquatis.dehydrator_off": "Dehydrator Off",
+  "item.summoner_aquatis.shitty_oricalcum_armor_chestplate": "ShittyOricalcum Chestplate",
+  "item.summoner_aquatis.atlantean_chestplate": "Atlantean Body",
   "block.summoner_aquatis.atlantean_debris": "Atlantean Debris",
-  "block.summoner_aquatis.dehydrator_on": "Dehydrator Off",
   "block.summoner_aquatis.orichalcum_block": "Block of Orichalcum",
-  "item.summoner_aquatis.orichalcum_bar": "Orichalcum Bar"
+  "item.summoner_aquatis.orichalcum_bar": "Orichalcum Bar",
+  "item.summoner_aquatis.shitty_oricalcum_armor_boots": "ShittyOricalcum Boots"
 }

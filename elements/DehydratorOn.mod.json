@@ -94,7 +94,7 @@
     "fallSound": {
       "value": ""
     },
-    "luminance": 10,
+    "luminance": 15,
     "unbreakable": false,
     "breakHarvestLevel": 0,
     "spawnParticles": true,
@@ -102,7 +102,7 @@
       "value": "FLAME"
     },
     "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
+    "particleSpawningRadious": 0.1,
     "particleAmount": 1,
     "hasInventory": true,
     "guiBoundTo": "DehydratorUI",
@@ -127,7 +127,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "DehydratorSmelt"
+      "name": "DehydratorDry"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

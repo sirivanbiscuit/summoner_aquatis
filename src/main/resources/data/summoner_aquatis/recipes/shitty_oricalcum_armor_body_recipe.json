@@ -1,41 +1,38 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
+    "0 2",
     "345",
     "678"
   ],
   "key": {
     "0": {
-      "item": "minecraft:prismarine"
-    },
-    "1": {
-      "item": "minecraft:sea_lantern"
+      "item": "summoner_aquatis:orichalcum_bar"
     },
     "2": {
-      "item": "minecraft:prismarine"
+      "item": "summoner_aquatis:orichalcum_bar"
     },
     "3": {
       "item": "summoner_aquatis:orichalcum_bar"
     },
     "4": {
-      "item": "minecraft:furnace"
+      "item": "summoner_aquatis:orichalcum_bar"
     },
     "5": {
       "item": "summoner_aquatis:orichalcum_bar"
     },
     "6": {
-      "item": "minecraft:prismarine"
+      "item": "summoner_aquatis:orichalcum_bar"
     },
     "7": {
-      "item": "minecraft:magma_block"
+      "item": "summoner_aquatis:orichalcum_bar"
     },
     "8": {
-      "item": "minecraft:prismarine"
+      "item": "summoner_aquatis:orichalcum_bar"
     }
   },
   "result": {
-    "item": "summoner_aquatis:dehydrator_off",
+    "item": "summoner_aquatis:shitty_oricalcum_armor_chestplate",
     "count": 1
   }
 }

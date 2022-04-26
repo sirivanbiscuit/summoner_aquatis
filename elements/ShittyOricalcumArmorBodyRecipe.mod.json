@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.PRISMARINE"
+        "value": "CUSTOM:OrichalcumBar"
       },
       {
-        "value": "Blocks.SEA_LANTERN"
-      },
-      {
-        "value": "Blocks.PRISMARINE"
+        "value": ""
       },
       {
         "value": "CUSTOM:OrichalcumBar"
       },
       {
-        "value": "Blocks.FURNACE"
+        "value": "CUSTOM:OrichalcumBar"
       },
       {
         "value": "CUSTOM:OrichalcumBar"
       },
       {
-        "value": "Blocks.PRISMARINE"
+        "value": "CUSTOM:OrichalcumBar"
       },
       {
-        "value": "Blocks.MAGMA"
+        "value": "CUSTOM:OrichalcumBar"
       },
       {
-        "value": "Blocks.PRISMARINE"
+        "value": "CUSTOM:OrichalcumBar"
+      },
+      {
+        "value": "CUSTOM:OrichalcumBar"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:DehydratorOff"
+      "value": "CUSTOM:ShittyOricalcumArmor.body"
     },
-    "name": "sponge_dryer_crafting",
+    "name": "shitty_oricalcum_armor_body_recipe",
     "namespace": "mod"
   }
 }

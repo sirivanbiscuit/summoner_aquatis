@@ -57,16 +57,20 @@ import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.summoneraquatis.procedures.DehydratorSmeltProcedure;
+import net.mcreator.summoneraquatis.procedures.DehydratorDryProcedure;
 import net.mcreator.summoneraquatis.gui.DehydratorUIGui;
 import net.mcreator.summoneraquatis.SummonerAquatisModElements;
 
 import javax.annotation.Nullable;
 
+import java.util.stream.Stream;
 import java.util.stream.IntStream;
 import java.util.Random;
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 import java.util.Collections;
+import java.util.AbstractMap;
 
 import io.netty.buffer.Unpooled;
 
@@ -163,7 +167,10 @@ public class DehydratorOffBlock extends SummonerAquatisModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 
-			DehydratorSmeltProcedure.executeProcedure(Collections.EMPTY_MAP);
+			DehydratorDryProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			world.getPendingBlockTicks().scheduleTick(pos, this, 1);
 		}
 
@@ -178,7 +185,7 @@ public class DehydratorOffBlock extends SummonerAquatisModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Dehydrator Off");
+						return new StringTextComponent("Dehydrator");
 					}
 
 					@Override
@@ -312,7 +319,7 @@ public class DehydratorOffBlock extends SummonerAquatisModElements.ModElement {
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("Dehydrator Off");
+			return new StringTextComponent("Dehydrator");
 		}
 
 		@Override
