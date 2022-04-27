@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "summoner_aquatis:orichalcum_bar"
+    },
+    "1": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "2": {
+      "item": "summoner_aquatis:orichalcum_bar"
+    },
+    "3": {
+      "item": "minecraft:diamond"
+    },
+    "4": {
+      "item": "minecraft:turtle_helmet"
+    },
+    "5": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "summoner_aquatis:atlantean_helmet",
+    "count": 1
+  }
+}

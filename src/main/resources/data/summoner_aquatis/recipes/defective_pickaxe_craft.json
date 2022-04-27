@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:ice"
+    },
+    "2": {
+      "item": "minecraft:light_blue_concrete"
+    },
+    "4": {
+      "item": "minecraft:lever"
+    },
+    "5": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "6": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "item": "summoner_aquatis:defective_pickaxe",
+    "count": 1
+  }
+}

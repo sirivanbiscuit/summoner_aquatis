@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "summoner_aquatis:items/turbo_ass_pick"
+  }
+}

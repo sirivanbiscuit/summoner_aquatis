@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.HEART_OF_THE_SEA"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "CUSTOM:OrichalcumBar"
+      },
+      {
+        "value": "Items.NAUTILUS_SHELL"
+      },
+      {
+        "value": "CUSTOM:OrichalcumBar"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Atlantean.body"
+    },
+    "name": "budget_chestplate",
+    "namespace": "mod"
+  }
+}

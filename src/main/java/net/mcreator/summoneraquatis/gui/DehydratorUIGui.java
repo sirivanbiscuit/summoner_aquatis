@@ -27,6 +27,7 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
+import net.minecraft.block.Blocks;
 
 import net.mcreator.summoneraquatis.SummonerAquatisModElements;
 import net.mcreator.summoneraquatis.SummonerAquatisMod;
@@ -118,9 +119,17 @@ public class DehydratorUIGui extends SummonerAquatisModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 43, 26) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 43, 62) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return (Blocks.MAGMA_BLOCK.asItem() == stack.getItem());
+				}
 			}));
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 43, 62) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 43, 26) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return ((Blocks.KELP.asItem() == stack.getItem()) || (Blocks.WET_SPONGE.asItem() == stack.getItem()));
+				}
 			}));
 			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 115, 44) {
 				@Override

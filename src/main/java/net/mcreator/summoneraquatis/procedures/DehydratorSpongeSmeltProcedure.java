@@ -12,7 +12,6 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.state.Property;
 import net.minecraft.nbt.CompoundNBT;
-import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
@@ -28,27 +27,27 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.AbstractMap;
 
-public class DehydratorKelpSmeltProcedure {
+public class DehydratorSpongeSmeltProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				SummonerAquatisMod.LOGGER.warn("Failed to load dependency world for procedure DehydratorKelpSmelt!");
+				SummonerAquatisMod.LOGGER.warn("Failed to load dependency world for procedure DehydratorSpongeSmelt!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				SummonerAquatisMod.LOGGER.warn("Failed to load dependency x for procedure DehydratorKelpSmelt!");
+				SummonerAquatisMod.LOGGER.warn("Failed to load dependency x for procedure DehydratorSpongeSmelt!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				SummonerAquatisMod.LOGGER.warn("Failed to load dependency y for procedure DehydratorKelpSmelt!");
+				SummonerAquatisMod.LOGGER.warn("Failed to load dependency y for procedure DehydratorSpongeSmelt!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				SummonerAquatisMod.LOGGER.warn("Failed to load dependency z for procedure DehydratorKelpSmelt!");
+				SummonerAquatisMod.LOGGER.warn("Failed to load dependency z for procedure DehydratorSpongeSmelt!");
 			return;
 		}
 		IWorld world = (IWorld) dependencies.get("world");
@@ -194,7 +193,7 @@ public class DehydratorKelpSmeltProcedure {
 							}
 							return _retval.get();
 						}
-					}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == Blocks.KELP.asItem() && (new Object() {
+					}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == Blocks.WET_SPONGE.asItem() && (new Object() {
 						public int getAmount(IWorld world, BlockPos pos, int sltid) {
 							AtomicInteger _retval = new AtomicInteger(0);
 							TileEntity _ent = world.getTileEntity(pos);
@@ -216,7 +215,7 @@ public class DehydratorKelpSmeltProcedure {
 							}
 							return _retval.get();
 						}
-					}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == Items.DRIED_KELP || (new Object() {
+					}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == Blocks.SPONGE.asItem() || (new Object() {
 						public ItemStack getItemStack(BlockPos pos, int sltid) {
 							AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 							TileEntity _ent = world.getTileEntity(pos);
@@ -246,7 +245,7 @@ public class DehydratorKelpSmeltProcedure {
 							TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 							if (_ent != null) {
 								final int _sltid = (int) (2);
-								final ItemStack _setstack = new ItemStack(Items.DRIED_KELP);
+								final ItemStack _setstack = new ItemStack(Blocks.SPONGE);
 								_setstack.setCount((int) (new Object() {
 									public int getAmount(IWorld world, BlockPos pos, int sltid) {
 										AtomicInteger _retval = new AtomicInteger(0);

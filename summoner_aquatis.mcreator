@@ -177,7 +177,7 @@
       "type": "gui",
       "sortid": 16,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "dehydrator_ui"
     },
     {
@@ -397,19 +397,105 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "DehydratorSpongeSmelt",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dehydrator_sponge_smelt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SlimeWeed",
+      "type": "plant",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_weed"
+    },
+    {
+      "name": "BudgetHelmet",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "budget_helmet"
+    },
+    {
+      "name": "BudgetChestplate",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "budget_chestplate"
+    },
+    {
+      "name": "BudgetLegs",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "budget_legs"
+    },
+    {
+      "name": "BudgetBoots",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "budget_boots"
+    },
+    {
+      "name": "DefectivePickaxe",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "defective_pickaxe"
+    },
+    {
+      "name": "DefectivePickaxeCraft",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "defective_pickaxe_craft"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.summoner_aquatis.sponge_dryer": "Dehydrator",
       "item.summoner_aquatis.shitty_oricalcum_armor_leggings": "ShittyOricalcum Leggings",
+      "block.summoner_aquatis.sponge_dryer": "Dehydrator",
       "item.summoner_aquatis.bottomless_bucket_full": "Bottomless Bucket (Full)",
       "item.summoner_aquatis.atlantean_boots": "Atlantean Boots",
       "block.summoner_aquatis.dehydrator_off": "Dehydrator",
       "block.summoner_aquatis.dehydrator_on": "Dehydrator Off",
       "item.summoner_aquatis.atlantean_helmet": "Atlantean Helmet",
+      "block.summoner_aquatis.slime_weed": "Slime Weed",
+      "item.summoner_aquatis.defective_pickaxe": "Defective Pickaxe",
       "item.summoner_aquatis.atlantean_leggings": "Atlantean Leggings",
       "item.summoner_aquatis.shitty_oricalcum_armor_helmet": "ShittyOricalcum Helmet",
       "item.summoner_aquatis.orichalcum": "Atlantean Debris",
