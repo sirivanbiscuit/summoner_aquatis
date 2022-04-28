@@ -564,8 +564,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.summoner_aquatis.shitty_oricalcum_armor_leggings": "ShittyOricalcum Leggings",
       "block.summoner_aquatis.sponge_dryer": "Dehydrator",
+      "item.summoner_aquatis.shitty_oricalcum_armor_leggings": "ShittyOricalcum Leggings",
       "item.summoner_aquatis.bottomless_bucket_full": "Bottomless Bucket (Full)",
       "item.summoner_aquatis.atlantean_boots": "Atlantean Boots",
       "block.summoner_aquatis.dehydrator_off": "Dehydrator",
