@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "Blocks.GRAVEL"
+      },
+      {
+        "value": "Blocks.DIRT#0"
+      },
+      {
+        "value": "Blocks.SAND#0"
+      },
+      {
+        "value": "CUSTOM:SlimeWeedBlock"
+      },
+      {
+        "value": "CUSTOM:SlimeWeedBlockGrown"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "plant_bases",
+    "namespace": "forge"
+  }
+}

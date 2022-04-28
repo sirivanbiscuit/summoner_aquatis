@@ -427,14 +427,6 @@
       }
     },
     {
-      "name": "SlimeWeed",
-      "type": "plant",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "slime_weed"
-    },
-    {
       "name": "BudgetHelmet",
       "type": "recipe",
       "sortid": 30,
@@ -481,25 +473,111 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "defective_pickaxe_craft"
+    },
+    {
+      "name": "SlimeWeedBlockBlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_weed_block_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SlimeWeedBlock",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_weed_block"
+    },
+    {
+      "name": "SlimeWeedBlockGrown",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_weed_block_grown"
+    },
+    {
+      "name": "PlantBases",
+      "type": "tag",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plant_bases"
+    },
+    {
+      "name": "SlimeWeedBlockUpdateTick",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_weed_block_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.summoner_aquatis.shitty_oricalcum_armor_leggings": "ShittyOricalcum Leggings",
       "block.summoner_aquatis.sponge_dryer": "Dehydrator",
+      "item.summoner_aquatis.shitty_oricalcum_armor_leggings": "ShittyOricalcum Leggings",
       "item.summoner_aquatis.bottomless_bucket_full": "Bottomless Bucket (Full)",
       "item.summoner_aquatis.atlantean_boots": "Atlantean Boots",
       "block.summoner_aquatis.dehydrator_off": "Dehydrator",
       "block.summoner_aquatis.dehydrator_on": "Dehydrator Off",
       "item.summoner_aquatis.atlantean_helmet": "Atlantean Helmet",
-      "block.summoner_aquatis.slime_weed": "Slime Weed",
       "item.summoner_aquatis.defective_pickaxe": "Defective Pickaxe",
       "item.summoner_aquatis.atlantean_leggings": "Atlantean Leggings",
       "item.summoner_aquatis.shitty_oricalcum_armor_helmet": "ShittyOricalcum Helmet",
+      "block.summoner_aquatis.slime_weed_block_grown": "Slime Weed",
       "item.summoner_aquatis.orichalcum": "Atlantean Debris",
       "item.summoner_aquatis.bottomless_bucket_empty": "Bottomless Bucket (Empty)",
+      "block.summoner_aquatis.slime_weed_block": "Slime Weed",
       "item.summoner_aquatis.shitty_oricalcum_armor_chestplate": "ShittyOricalcum Chestplate",
       "item.summoner_aquatis.atlantean_chestplate": "Atlantean Body",
       "block.summoner_aquatis.atlantean_debris": "Atlantean Debris",
