@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "shittyoricalcum_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:SummonerAquatis"
     },
     "armorTextureFile": "shittyoricalcum",
     "helmetName": "ShittyOricalcum Helmet",

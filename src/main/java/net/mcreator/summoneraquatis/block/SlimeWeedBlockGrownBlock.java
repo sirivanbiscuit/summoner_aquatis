@@ -6,7 +6,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.IWorldReader;
+import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
@@ -26,14 +26,14 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.IWaterLoggable;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.summoneraquatis.procedures.SlimeWeedBlockBlockValidPlacementConditionProcedure;
+import net.mcreator.summoneraquatis.procedures.SlimeWeedBlockGrownUpdateTickProcedure;
 import net.mcreator.summoneraquatis.SummonerAquatisModElements;
 
 import java.util.stream.Stream;
+import java.util.Random;
 import java.util.Map;
 import java.util.List;
 import java.util.HashMap;
@@ -65,7 +65,7 @@ public class SlimeWeedBlockGrownBlock extends SummonerAquatisModElements.ModElem
 		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 		public CustomBlock() {
-			super(Block.Properties.create(Material.PLANTS).sound(SoundType.PLANT).hardnessAndResistance(0f, 0f).setLightLevel(s -> 0)
+			super(Block.Properties.create(Material.OCEAN_PLANT).sound(SoundType.PLANT).hardnessAndResistance(0f, 0f).setLightLevel(s -> 0)
 					.doesNotBlockMovement().notSolid().setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(WATERLOGGED, false));
 			setRegistryName("slime_weed_block_grown");
@@ -79,22 +79,6 @@ public class SlimeWeedBlockGrownBlock extends SummonerAquatisModElements.ModElem
 		@Override
 		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
 			return 0;
-		}
-
-		@Override
-		public boolean isValidPosition(BlockState blockstate, IWorldReader worldIn, BlockPos pos) {
-			if (worldIn instanceof IWorld) {
-				IWorld world = (IWorld) worldIn;
-				int x = pos.getX();
-				int y = pos.getY();
-				int z = pos.getZ();
-				return SlimeWeedBlockBlockValidPlacementConditionProcedure.executeProcedure(Stream
-						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
-								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z),
-								new AbstractMap.SimpleEntry<>("blockstate", blockstate))
-						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-			}
-			return super.isValidPosition(blockstate, worldIn, pos);
 		}
 
 		@Override
@@ -119,9 +103,7 @@ public class SlimeWeedBlockGrownBlock extends SummonerAquatisModElements.ModElem
 			if (state.get(WATERLOGGED)) {
 				world.getPendingFluidTicks().scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickRate(world));
 			}
-			return !state.isValidPosition(world, currentPos)
-					? Blocks.AIR.getDefaultState()
-					: super.updatePostPlacement(state, facing, facingState, world, currentPos, facingPos);
+			return super.updatePostPlacement(state, facing, facingState, world, currentPos, facingPos);
 		}
 
 		@Override
@@ -130,6 +112,19 @@ public class SlimeWeedBlockGrownBlock extends SummonerAquatisModElements.ModElem
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
+		}
+
+		@Override
+		public void tick(BlockState blockstate, ServerWorld world, BlockPos pos, Random random) {
+			super.tick(blockstate, world, pos, random);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+
+			SlimeWeedBlockGrownUpdateTickProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
 }

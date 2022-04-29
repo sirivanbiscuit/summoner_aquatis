@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "bootlegatlanteanboots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:SummonerAquatis"
     },
     "armorTextureFile": "shittyoricalcum",
     "helmetName": "Atlantean Helmet",

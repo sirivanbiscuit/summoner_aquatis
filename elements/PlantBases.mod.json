@@ -18,6 +18,9 @@
       },
       {
         "value": "CUSTOM:SlimeWeedBlockGrown"
+      },
+      {
+        "value": "CUSTOM:SlimeWeedBlockExtraGrown"
       }
     ],
     "blocks": [],

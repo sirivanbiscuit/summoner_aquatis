@@ -2,14 +2,14 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "cyan_colored_shell_side",
+    "texture": "slimekelptop",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 12,
+    "customModelName": "Cross model",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -17,9 +17,9 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -32,29 +32,29 @@
         "subtract": false
       }
     ],
-    "name": "Atlantean Debris",
+    "name": "Slime Weed",
     "specialInfo": [],
-    "hardness": 7.0,
-    "resistance": 8.705505632961241,
+    "hardness": 0.0,
+    "resistance": 0.0,
     "hasGravity": false,
-    "isWaterloggable": false,
+    "isWaterloggable": true,
     "creativeTab": {
-      "value": "CUSTOM:SummonerAquatis"
+      "value": "No creative tab entry"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Orichalcum"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 0,
     "material": {
-      "value": "ROCK"
+      "value": "OCEAN_PLANT"
     },
-    "tickRate": 10,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -74,10 +74,10 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "isNotColidable": true,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "PLANT"
     },
     "breakSound": {
       "value": ""
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -121,43 +121,15 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
-    "restrictionBiomes": [
-      {
-        "value": "ocean"
-      },
-      {
-        "value": "cold_ocean"
-      },
-      {
-        "value": "warm_ocean"
-      },
-      {
-        "value": "lukewarm_ocean"
-      },
-      {
-        "value": "frozen_ocean"
-      }
-    ],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.BUBBLE_COLUMN"
-      },
-      {
-        "value": "Blocks.WATER"
-      },
-      {
-        "value": "Blocks.FLOWING_WATER"
-      },
-      {
-        "value": "Blocks.STONE#0"
-      }
-    ],
-    "frequencyPerChunks": 8,
-    "frequencyOnChunk": 5,
-    "minGenerateHeight": 10,
-    "maxGenerateHeight": 30
+    "onTickUpdate": {
+      "name": "SlimeWeedBlockExtraGrownUpdateTick"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

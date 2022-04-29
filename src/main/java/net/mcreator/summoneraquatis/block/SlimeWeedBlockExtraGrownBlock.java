@@ -29,8 +29,7 @@ import net.minecraft.block.IWaterLoggable;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.summoneraquatis.procedures.SlimeWeedBlockUpdateTickProcedure;
-import net.mcreator.summoneraquatis.itemgroup.SummonerAquatisItemGroup;
+import net.mcreator.summoneraquatis.procedures.SlimeWeedBlockExtraGrownUpdateTickProcedure;
 import net.mcreator.summoneraquatis.SummonerAquatisModElements;
 
 import java.util.stream.Stream;
@@ -42,19 +41,18 @@ import java.util.Collections;
 import java.util.AbstractMap;
 
 @SummonerAquatisModElements.ModElement.Tag
-public class SlimeWeedBlockBlock extends SummonerAquatisModElements.ModElement {
-	@ObjectHolder("summoner_aquatis:slime_weed_block")
+public class SlimeWeedBlockExtraGrownBlock extends SummonerAquatisModElements.ModElement {
+	@ObjectHolder("summoner_aquatis:slime_weed_block_extra_grown")
 	public static final Block block = null;
 
-	public SlimeWeedBlockBlock(SummonerAquatisModElements instance) {
-		super(instance, 36);
+	public SlimeWeedBlockExtraGrownBlock(SummonerAquatisModElements instance) {
+		super(instance, 40);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(SummonerAquatisItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(null)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override
@@ -68,9 +66,9 @@ public class SlimeWeedBlockBlock extends SummonerAquatisModElements.ModElement {
 
 		public CustomBlock() {
 			super(Block.Properties.create(Material.OCEAN_PLANT).sound(SoundType.PLANT).hardnessAndResistance(0f, 0f).setLightLevel(s -> 0)
-					.doesNotBlockMovement().notSolid().tickRandomly().setOpaque((bs, br, bp) -> false));
+					.doesNotBlockMovement().notSolid().setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(WATERLOGGED, false));
-			setRegistryName("slime_weed_block");
+			setRegistryName("slime_weed_block_extra_grown");
 		}
 
 		@Override
@@ -123,7 +121,7 @@ public class SlimeWeedBlockBlock extends SummonerAquatisModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 
-			SlimeWeedBlockUpdateTickProcedure.executeProcedure(Stream
+			SlimeWeedBlockExtraGrownUpdateTickProcedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
 							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));

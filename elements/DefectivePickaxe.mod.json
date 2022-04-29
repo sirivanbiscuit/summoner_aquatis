@@ -7,11 +7,11 @@
     "customModelName": "Normal",
     "name": "Defective Pickaxe",
     "specialInfo": [
-      "Useless in every way",
-      "Why would you make this?"
+      "§7Useless in every way",
+      "§7Why would you make this?"
     ],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:SummonerAquatis"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 0,

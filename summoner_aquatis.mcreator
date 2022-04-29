@@ -475,39 +475,6 @@
       "registry_name": "defective_pickaxe_craft"
     },
     {
-      "name": "SlimeWeedBlockBlockValidPlacementCondition",
-      "type": "procedure",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "slime_weed_block_block_valid_placement_condition",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "blockstate",
-            "type": "blockstate"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "SlimeWeedBlock",
       "type": "block",
       "sortid": 36,
@@ -558,6 +525,78 @@
           }
         ]
       }
+    },
+    {
+      "name": "SummonerAquatis",
+      "type": "tab",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summoner_aquatis"
+    },
+    {
+      "name": "SlimeWeedBlockExtraGrown",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_weed_block_extra_grown"
+    },
+    {
+      "name": "SlimeWeedBlockGrownUpdateTick",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_weed_block_grown_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SlimeWeedBlockExtraGrownUpdateTick",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_weed_block_extra_grown_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -572,6 +611,7 @@
       "block.summoner_aquatis.dehydrator_on": "Dehydrator Off",
       "item.summoner_aquatis.atlantean_helmet": "Atlantean Helmet",
       "item.summoner_aquatis.defective_pickaxe": "Defective Pickaxe",
+      "block.summoner_aquatis.slime_weed_block_extra_grown": "Slime Weed",
       "item.summoner_aquatis.atlantean_leggings": "Atlantean Leggings",
       "item.summoner_aquatis.shitty_oricalcum_armor_helmet": "ShittyOricalcum Helmet",
       "block.summoner_aquatis.slime_weed_block_grown": "Slime Weed",
@@ -580,6 +620,7 @@
       "block.summoner_aquatis.slime_weed_block": "Slime Weed",
       "item.summoner_aquatis.shitty_oricalcum_armor_chestplate": "ShittyOricalcum Chestplate",
       "item.summoner_aquatis.atlantean_chestplate": "Atlantean Body",
+      "itemGroup.tabsummoner_aquatis": "Summoner Aquatis",
       "block.summoner_aquatis.atlantean_debris": "Atlantean Debris",
       "block.summoner_aquatis.orichalcum_block": "Block of Orichalcum",
       "item.summoner_aquatis.orichalcum_bar": "Orichalcum Bar",

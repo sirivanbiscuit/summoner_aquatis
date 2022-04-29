@@ -9,11 +9,11 @@ import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.client.util.ITooltipFlag;
 
+import net.mcreator.summoneraquatis.itemgroup.SummonerAquatisItemGroup;
 import net.mcreator.summoneraquatis.SummonerAquatisModElements;
 
 import java.util.List;
@@ -53,12 +53,12 @@ public class DefectivePickaxeItem extends SummonerAquatisModElements.ModElement 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3.5f, new Item.Properties().group(ItemGroup.TOOLS).isImmuneToFire()) {
+		}, 1, -3.5f, new Item.Properties().group(SummonerAquatisItemGroup.tab).isImmuneToFire()) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("Useless in every way"));
-				list.add(new StringTextComponent("Why would you make this?"));
+				list.add(new StringTextComponent("\u00A77Useless in every way"));
+				list.add(new StringTextComponent("\u00A77Why would you make this?"));
 			}
 		}.setRegistryName("defective_pickaxe"));
 	}
