@@ -1319,7 +1319,8 @@
       "sortid": 102,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "first_time_modder"
+      "registry_name": "first_time_modder",
+      "path": "~/Cheevos"
     },
     {
       "name": "HobbesApproved",
@@ -1327,7 +1328,8 @@
       "sortid": 103,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hobbes_approved"
+      "registry_name": "hobbes_approved",
+      "path": "~/Cheevos"
     },
     {
       "name": "Frankenfood",
@@ -1335,7 +1337,8 @@
       "sortid": 104,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "frankenfood"
+      "registry_name": "frankenfood",
+      "path": "~/Cheevos"
     },
     {
       "name": "AwardJeffGoldblum",
@@ -1355,7 +1358,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Cheevos"
     },
     {
       "name": "PlatoWasRight",
@@ -1363,7 +1367,8 @@
       "sortid": 106,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "plato_was_right"
+      "registry_name": "plato_was_right",
+      "path": "~/Cheevos"
     },
     {
       "name": "FinishTheJob",
@@ -1371,7 +1376,8 @@
       "sortid": 107,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "finish_the_job"
+      "registry_name": "finish_the_job",
+      "path": "~/Cheevos"
     },
     {
       "name": "AwardFinishTheJob",
@@ -1391,7 +1397,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Cheevos"
     },
     {
       "name": "ThisIsABucket",
@@ -1399,7 +1406,8 @@
       "sortid": 109,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "this_is_a_bucket"
+      "registry_name": "this_is_a_bucket",
+      "path": "~/Cheevos"
     },
     {
       "name": "AwardThisIsABucket",
@@ -1419,7 +1427,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Cheevos"
     },
     {
       "name": "TheresMore",
@@ -1439,7 +1448,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Cheevos"
     },
     {
       "name": "TheresMoreCheevo",
@@ -1447,7 +1457,8 @@
       "sortid": 112,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "theres_more_cheevo"
+      "registry_name": "theres_more_cheevo",
+      "path": "~/Cheevos"
     },
     {
       "name": "FirstTimeModderAward",
@@ -1467,7 +1478,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Cheevos"
     },
     {
       "name": "ThatHurt",
@@ -1475,7 +1487,8 @@
       "sortid": 114,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "that_hurt"
+      "registry_name": "that_hurt",
+      "path": "~/Cheevos"
     },
     {
       "name": "ClearlyYouDont",
@@ -1483,7 +1496,8 @@
       "sortid": 115,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clearly_you_dont"
+      "registry_name": "clearly_you_dont",
+      "path": "~/Cheevos"
     },
     {
       "name": "AwardClearly",
@@ -1503,7 +1517,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Cheevos"
     }
   ],
   "variable_elements": [],
@@ -1595,6 +1610,10 @@
       },
       {
         "name": "Spinefruit",
+        "children": []
+      },
+      {
+        "name": "Cheevos",
         "children": []
       }
     ]

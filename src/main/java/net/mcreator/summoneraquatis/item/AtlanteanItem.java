@@ -51,7 +51,7 @@ public class AtlanteanItem extends SummonerAquatisModElements.ModElement {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 5, 6, 2}[slot.getIndex()];
+				return new int[]{3, 6, 8, 3}[slot.getIndex()];
 			}
 
 			@Override

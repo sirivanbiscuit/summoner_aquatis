@@ -6,9 +6,9 @@
     "texture": "atlantean_scrap-1.png",
     "customModelName": "Normal",
     "name": "Atlantean Debris",
-    "rarity": "UNCOMMON",
+    "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:SummonerAquatis"
     },
     "stackSize": 64,
     "enchantability": 0,
