@@ -2,7 +2,11 @@ package net.mcreator.summoneraquatis.procedures;
 
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.state.Property;
+import net.minecraft.state.BooleanProperty;
+import net.minecraft.block.IWaterLoggable;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.BlockState;
 
 import net.mcreator.summoneraquatis.block.SlimeWeedBlockGrownBlock;
 import net.mcreator.summoneraquatis.block.SlimeWeedBlockBlock;
@@ -40,10 +44,24 @@ public class SlimeWeedBlockUpdateTickProcedure {
 		if ((world.getFluidState(new BlockPos((int) x, (int) y, (int) z)).getBlockState()).getBlock() == Blocks.WATER) {
 			if (Math.random() < 0.1) {
 				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), SlimeWeedBlockGrownBlock.block.getDefaultState(), 3);
+				{
+					BlockPos _pos = new BlockPos((int) x, (int) y, (int) z);
+					BlockState _bs = world.getBlockState(_pos);
+					Property<?> _property = _bs.getBlock().getStateContainer().getProperty("waterlogged");
+					if (_property instanceof BooleanProperty)
+						world.setBlockState(_pos, _bs.with((BooleanProperty) _property, (true)), 3);
+				}
 			}
-			if (Math.random() < 0.1
-					&& (world.getFluidState(new BlockPos((int) x, (int) (y + 1), (int) z)).getBlockState()).getBlock() == Blocks.WATER) {
+			if (Math.random() < 0.1 && (world.getFluidState(new BlockPos((int) x, (int) (y + 1), (int) z)).getBlockState()).getBlock() == Blocks.WATER
+					&& !((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() instanceof IWaterLoggable)) {
 				world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), SlimeWeedBlockBlock.block.getDefaultState(), 3);
+				{
+					BlockPos _pos = new BlockPos((int) x, (int) (y + 1), (int) z);
+					BlockState _bs = world.getBlockState(_pos);
+					Property<?> _property = _bs.getBlock().getStateContainer().getProperty("waterlogged");
+					if (_property instanceof BooleanProperty)
+						world.setBlockState(_pos, _bs.with((BooleanProperty) _property, (true)), 3);
+				}
 			}
 		}
 	}

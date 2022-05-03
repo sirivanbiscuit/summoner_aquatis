@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "summoner_aquatis:blocks/stonewood_log_top",
+    "up": "summoner_aquatis:blocks/stonewood_log_top",
+    "north": "summoner_aquatis:blocks/stonewood_log_side",
+    "east": "summoner_aquatis:blocks/stonewood_log_side",
+    "south": "summoner_aquatis:blocks/stonewood_log_side",
+    "west": "summoner_aquatis:blocks/stonewood_log_side",
+    "particle": "summoner_aquatis:blocks/stonewood_log_top"
+  }
+}

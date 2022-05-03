@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "summoner_aquatis:blocks/stonewood_planks"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "summoner_aquatis:blocks/stonewood_planks",
+    "particle": "summoner_aquatis:blocks/stonewood_planks"
+  }
+}

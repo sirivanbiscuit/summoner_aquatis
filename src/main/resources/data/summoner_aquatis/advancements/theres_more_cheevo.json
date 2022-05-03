@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "summoner_aquatis:bottomless_bucket_full"
+    },
+    "title": {
+      "translate": "advancements.theres_more_cheevo.title"
+    },
+    "description": {
+      "translate": "advancements.theres_more_cheevo.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "theres_more_cheevo": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "summoner_aquatis:this_is_a_bucket"
+}

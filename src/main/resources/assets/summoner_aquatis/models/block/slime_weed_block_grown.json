@@ -1,7 +1,7 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "summoner_aquatis:blocks/slimekelpsegment",
-    "particle": "summoner_aquatis:blocks/slimekelpsegment"
+    "cross": "summoner_aquatis:blocks/grownslimeweed2",
+    "particle": "summoner_aquatis:blocks/grownslimeweed2"
   }
 }

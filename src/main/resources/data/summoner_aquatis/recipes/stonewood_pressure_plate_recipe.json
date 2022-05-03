@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "summoner_aquatis:stonewood_planks"
+    },
+    "1": {
+      "item": "summoner_aquatis:stonewood_planks"
+    }
+  },
+  "result": {
+    "item": "summoner_aquatis:stonewood_pressure_plate",
+    "count": 1
+  }
+}

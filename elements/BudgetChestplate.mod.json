@@ -10,22 +10,22 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.DIAMOND"
+        "value": "Items.PRISMARINE_SHARD"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.DIAMOND"
+        "value": "Items.PRISMARINE_SHARD"
       },
       {
-        "value": "Items.DIAMOND"
+        "value": "Items.PRISMARINE_SHARD"
       },
       {
         "value": "Items.HEART_OF_THE_SEA"
       },
       {
-        "value": "Items.DIAMOND"
+        "value": "Items.PRISMARINE_SHARD"
       },
       {
         "value": "CUSTOM:OrichalcumBar"

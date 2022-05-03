@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "Blocks.DIRT#0"
+      },
+      {
+        "value": "Blocks.GRASS"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "valid_spinefruit_base",
+    "namespace": "forge"
+  }
+}

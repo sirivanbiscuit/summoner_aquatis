@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "summoner_aquatis:bottomless_bucket_empty"
+    },
+    "title": {
+      "translate": "advancements.this_is_a_bucket.title"
+    },
+    "description": {
+      "translate": "advancements.this_is_a_bucket.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "this_is_a_bucket": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "summoner_aquatis:finish_the_job"
+}

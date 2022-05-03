@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "spinefruit_leavesfruitless"
+      },
+      "name": "default"
+    },
+    "poopshitting": {
+      "map": {
+        "0": "spinefruitbush"
+      },
+      "name": "poopshitting"
+    }
+  }
+}

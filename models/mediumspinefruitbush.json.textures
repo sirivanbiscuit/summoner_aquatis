@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "spinefruit_leavesfruitless"
+      },
+      "name": "default"
+    },
+    "shitass": {
+      "map": {
+        "0": "spinefruitbushbetter"
+      },
+      "name": "shitass"
+    }
+  }
+}

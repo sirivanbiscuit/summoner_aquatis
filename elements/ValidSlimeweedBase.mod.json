@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:SlimeWeedBlock"
+      },
+      {
+        "value": "CUSTOM:SlimeWeedBlockGrown"
+      },
+      {
+        "value": "CUSTOM:SlimeWeedBlockExtraGrown"
+      },
+      {
+        "value": "Blocks.DIRT#0"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "valid_slimeweed_base",
+    "namespace": "forge"
+  }
+}

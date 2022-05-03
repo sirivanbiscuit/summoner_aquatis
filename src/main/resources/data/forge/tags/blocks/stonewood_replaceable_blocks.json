@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:grass",
+    "minecraft:tall_grass",
+    "minecraft:cave_air",
+    "summoner_aquatis:stonewood_sapling",
+    "summoner_aquatis:stonewood_leaves",
+    "summoner_aquatis:stonewood_log",
+    "minecraft:air",
+    "summoner_aquatis:stonewood_wood"
+  ]
+}

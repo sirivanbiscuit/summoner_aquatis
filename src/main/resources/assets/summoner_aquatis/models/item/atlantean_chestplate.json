@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "summoner_aquatis:items/bootlegatlanteanchest"
+    "layer0": "summoner_aquatis:items/nautchest"
   }
 }

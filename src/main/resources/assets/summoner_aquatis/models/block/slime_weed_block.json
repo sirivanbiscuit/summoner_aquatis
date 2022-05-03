@@ -1,7 +1,7 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "summoner_aquatis:blocks/emptyslimekelpsegment",
-    "particle": "summoner_aquatis:blocks/emptyslimekelpsegment"
+    "cross": "summoner_aquatis:blocks/slimekelpsegment2.png",
+    "particle": "summoner_aquatis:blocks/slimekelpsegment2.png"
   }
 }

@@ -6,17 +6,25 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.summoneraquatis.itemgroup.SummonerAquatisItemGroup;
+import net.mcreator.summoneraquatis.procedures.AtlanteanFullSuitBreathingProcedure;
 import net.mcreator.summoneraquatis.SummonerAquatisModElements;
+
+import java.util.stream.Stream;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.AbstractMap;
 
 @SummonerAquatisModElements.ModElement.Tag
 public class AtlanteanItem extends SummonerAquatisModElements.ModElement {
@@ -38,7 +46,7 @@ public class AtlanteanItem extends SummonerAquatisModElements.ModElement {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 25;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 35;
 			}
 
 			@Override
@@ -48,7 +56,7 @@ public class AtlanteanItem extends SummonerAquatisModElements.ModElement {
 
 			@Override
 			public int getEnchantability() {
-				return 9;
+				return 20;
 			}
 
 			@Override
@@ -69,7 +77,7 @@ public class AtlanteanItem extends SummonerAquatisModElements.ModElement {
 
 			@Override
 			public float getToughness() {
-				return 1.5f;
+				return 2f;
 			}
 
 			@Override
@@ -77,28 +85,39 @@ public class AtlanteanItem extends SummonerAquatisModElements.ModElement {
 				return 0f;
 			}
 		};
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(SummonerAquatisItemGroup.tab)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "summoner_aquatis:textures/models/armor/shittyoricalcum_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "summoner_aquatis:textures/models/armor/nautalisarmour4__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+			}
+
+			@Override
+			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
+				super.onArmorTick(itemstack, world, entity);
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
+
+				AtlanteanFullSuitBreathingProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
+						(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			}
 		}.setRegistryName("atlantean_helmet"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(SummonerAquatisItemGroup.tab)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "summoner_aquatis:textures/models/armor/shittyoricalcum_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "summoner_aquatis:textures/models/armor/nautalisarmour4__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("atlantean_chestplate"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(SummonerAquatisItemGroup.tab)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "summoner_aquatis:textures/models/armor/shittyoricalcum_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "summoner_aquatis:textures/models/armor/nautalisarmour4__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("atlantean_leggings"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(SummonerAquatisItemGroup.tab)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "summoner_aquatis:textures/models/armor/shittyoricalcum_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "summoner_aquatis:textures/models/armor/nautalisarmour4__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("atlantean_boots"));
 	}

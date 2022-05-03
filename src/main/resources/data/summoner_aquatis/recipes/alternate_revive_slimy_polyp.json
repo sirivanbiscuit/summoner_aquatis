@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "summoner_aquatis:agar_jelly_berries"
+    },
+    {
+      "item": "summoner_aquatis:agar_jelly_berries"
+    },
+    {
+      "item": "summoner_aquatis:slimy_polyp_dead"
+    },
+    {
+      "item": "summoner_aquatis:agar_jelly_berries"
+    },
+    {
+      "item": "summoner_aquatis:agar_jelly_berries"
+    },
+    {
+      "item": "summoner_aquatis:orichalcum_bar"
+    }
+  ],
+  "result": {
+    "item": "summoner_aquatis:slimy_polyp",
+    "count": 1
+  }
+}

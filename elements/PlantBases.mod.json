@@ -5,13 +5,7 @@
     "type": "Items",
     "items": [
       {
-        "value": "Blocks.GRAVEL"
-      },
-      {
         "value": "Blocks.DIRT#0"
-      },
-      {
-        "value": "Blocks.SAND#0"
       },
       {
         "value": "CUSTOM:SlimeWeedBlock"

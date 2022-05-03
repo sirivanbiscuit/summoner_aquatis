@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "summoner_aquatis:atlantean_helmet"
+    },
+    "title": {
+      "translate": "advancements.hobbes_approved.title"
+    },
+    "description": {
+      "translate": "advancements.hobbes_approved.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hobbes_approved": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "summoner_aquatis:finish_the_job"
+}

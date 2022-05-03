@@ -3,21 +3,24 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "bootlegatlanteanhelmet",
+    "textureHelmet": "nauthelmet",
     "enableBody": true,
-    "textureBody": "bootlegatlanteanchest",
+    "textureBody": "nautchest",
     "enableLeggings": true,
-    "textureLeggings": "bootlegatlanteanlegs",
+    "textureLeggings": "nautleg",
     "enableBoots": true,
-    "textureBoots": "bootlegatlanteanboots",
-    "creativeTab": {
-      "value": "CUSTOM:SummonerAquatis"
+    "textureBoots": "nautboot",
+    "onHelmetTick": {
+      "name": "AtlanteanFullSuitBreathing"
     },
-    "armorTextureFile": "shittyoricalcum",
-    "helmetName": "Atlantean Helmet",
-    "bodyName": "Atlantean Body",
-    "leggingsName": "Atlantean Leggings",
-    "bootsName": "Atlantean Boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "nautalisarmour4_",
+    "helmetName": "Leviathan Helmet",
+    "bodyName": "Leviathan Chestpiece",
+    "leggingsName": "Leviathan Leggings",
+    "bootsName": "Leviathan Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
@@ -42,13 +45,13 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
-    "maxDamage": 25,
+    "maxDamage": 35,
     "damageValueHelmet": 2,
     "damageValueBody": 6,
     "damageValueLeggings": 5,
     "damageValueBoots": 2,
-    "enchantability": 9,
-    "toughness": 1.5,
+    "enchantability": 20,
+    "toughness": 2.0,
     "knockbackResistance": 0.0,
     "equipSound": {
       "value": "item.armor.equip_turtle"

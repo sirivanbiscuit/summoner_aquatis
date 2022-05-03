@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "summoner_aquatis:spinefruit"
+    },
+    "title": {
+      "translate": "advancements.that_hurt.title"
+    },
+    "description": {
+      "translate": "advancements.that_hurt.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "that_hurt": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "summoner_aquatis:frankenfood"
+}

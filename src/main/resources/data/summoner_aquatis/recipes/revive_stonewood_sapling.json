@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "summoner_aquatis:orichalcum_bar"
+    },
+    {
+      "item": "summoner_aquatis:petrified_stonewood_sapling"
+    },
+    {
+      "item": "minecraft:tube_coral_block"
+    },
+    {
+      "item": "minecraft:dark_oak_sapling"
+    },
+    {
+      "item": "minecraft:crimson_fungus"
+    },
+    {
+      "item": "minecraft:rose_bush"
+    }
+  ],
+  "result": {
+    "item": "summoner_aquatis:stonewood_sapling",
+    "count": 64
+  }
+}

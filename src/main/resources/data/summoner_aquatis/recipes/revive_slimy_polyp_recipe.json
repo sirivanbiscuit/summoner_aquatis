@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "summoner_aquatis:slimy_polyp_dead"
+    },
+    {
+      "item": "minecraft:horn_coral"
+    },
+    {
+      "item": "minecraft:twisting_vines"
+    },
+    {
+      "item": "summoner_aquatis:orichalcum_bar"
+    }
+  ],
+  "result": {
+    "item": "summoner_aquatis:slimy_polyp",
+    "count": 1
+  }
+}

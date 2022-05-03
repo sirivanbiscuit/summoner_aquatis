@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "summoner_aquatis:orichalcum_bar"
+    },
+    {
+      "item": "summoner_aquatis:dead_spinefruit_cutting"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:sea_pickle"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "item": "minecraft:cactus"
+    }
+  ],
+  "result": {
+    "item": "summoner_aquatis:spinefruit_cutting",
+    "count": 9
+  }
+}

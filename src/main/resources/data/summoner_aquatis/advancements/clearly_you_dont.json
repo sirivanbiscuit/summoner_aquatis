@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "summoner_aquatis:dehydrator_off"
+    },
+    "title": {
+      "translate": "advancements.clearly_you_dont.title"
+    },
+    "description": {
+      "translate": "advancements.clearly_you_dont.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "clearly_you_dont": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "summoner_aquatis:finish_the_job"
+}

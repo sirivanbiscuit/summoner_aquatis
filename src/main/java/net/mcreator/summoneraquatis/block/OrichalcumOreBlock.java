@@ -126,7 +126,7 @@ public class OrichalcumOreBlock extends SummonerAquatisModElements.ModElement {
 				}
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 5)).range(30)
-					.square().func_242731_b(8);
+					.square().func_242731_b(3);
 			event.getRegistry().register(feature.setRegistryName("atlantean_debris"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("summoner_aquatis:atlantean_debris"), configuredFeature);
 		}

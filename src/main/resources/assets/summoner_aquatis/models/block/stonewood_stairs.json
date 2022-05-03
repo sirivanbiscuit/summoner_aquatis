@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "summoner_aquatis:blocks/stonewood_planks",
+    "top": "summoner_aquatis:blocks/stonewood_planks",
+    "side": "summoner_aquatis:blocks/stonewood_planks"
+  }
+}

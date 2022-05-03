@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "summoner_aquatis:spinefruit"
+  },
+  "result": {
+    "item": "summoner_aquatis:fried_spinefruit"
+  }
+}

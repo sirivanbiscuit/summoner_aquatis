@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "summoner_aquatis:stonewood_planks"
+    }
+  ],
+  "result": {
+    "item": "summoner_aquatis:stonewood_button",
+    "count": 1
+  }
+}

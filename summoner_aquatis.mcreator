@@ -6,7 +6,8 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "orichalcum"
+      "registry_name": "orichalcum",
+      "path": "~/Basic Orichalcum"
     },
     {
       "name": "OrichalcumOre",
@@ -14,7 +15,8 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "atlantean_debris"
+      "registry_name": "atlantean_debris",
+      "path": "~/Basic Orichalcum"
     },
     {
       "name": "OrichalcumBlock",
@@ -22,7 +24,8 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "orichalcum_block"
+      "registry_name": "orichalcum_block",
+      "path": "~/Basic Orichalcum"
     },
     {
       "name": "OrichalcumOreBlockRecipe",
@@ -30,7 +33,8 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "orichalcum_ore_block_recipe"
+      "registry_name": "orichalcum_ore_block_recipe",
+      "path": "~/Basic Orichalcum"
     },
     {
       "name": "OrichalcumBlockOreRecipe",
@@ -38,7 +42,8 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "orichalcum_block_ore_recipe"
+      "registry_name": "orichalcum_block_ore_recipe",
+      "path": "~/Basic Orichalcum"
     },
     {
       "name": "OrichalcumBar",
@@ -46,7 +51,8 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "orichalcum_bar"
+      "registry_name": "orichalcum_bar",
+      "path": "~/Basic Orichalcum"
     },
     {
       "name": "OrichalcumBarRecipe",
@@ -54,23 +60,8 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "orichalcum_bar_recipe"
-    },
-    {
-      "name": "SpongeDryer",
-      "type": "block",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sponge_dryer"
-    },
-    {
-      "name": "SpongeDryerCrafting",
-      "type": "recipe",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sponge_dryer_crafting"
+      "registry_name": "orichalcum_bar_recipe",
+      "path": "~/Basic Orichalcum"
     },
     {
       "name": "BottomlessBucketFullRightClickedOnBlock",
@@ -110,7 +101,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Bottomless Bucket"
     },
     {
       "name": "BottomlessBucketFull",
@@ -118,7 +110,8 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bottomless_bucket_full"
+      "registry_name": "bottomless_bucket_full",
+      "path": "~/Bottomless Bucket"
     },
     {
       "name": "BottomlessBucketEmpty",
@@ -126,7 +119,8 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bottomless_bucket_empty"
+      "registry_name": "bottomless_bucket_empty",
+      "path": "~/Bottomless Bucket"
     },
     {
       "name": "BottomlessBucketEmptyRightClickedInAir",
@@ -146,7 +140,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Bottomless Bucket"
     },
     {
       "name": "FillBottomlessBucket",
@@ -154,7 +149,8 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fill_bottomless_bucket"
+      "registry_name": "fill_bottomless_bucket",
+      "path": "~/Bottomless Bucket"
     },
     {
       "name": "EmptyBottomlessBucket",
@@ -162,7 +158,8 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "empty_bottomless_bucket"
+      "registry_name": "empty_bottomless_bucket",
+      "path": "~/Bottomless Bucket"
     },
     {
       "name": "CraftBottomlessBucket",
@@ -170,7 +167,8 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "craft_bottomless_bucket"
+      "registry_name": "craft_bottomless_bucket",
+      "path": "~/Bottomless Bucket"
     },
     {
       "name": "DehydratorUI",
@@ -178,7 +176,8 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": true,
-      "registry_name": "dehydrator_ui"
+      "registry_name": "dehydrator_ui",
+      "path": "~/Dehydrator"
     },
     {
       "name": "DehydratorTick",
@@ -207,7 +206,7 @@
           }
         ]
       },
-      "path": "~/Shitty Methods"
+      "path": "~/Dehydrator"
     },
     {
       "name": "DehydratorDisplayTick",
@@ -236,7 +235,7 @@
           }
         ]
       },
-      "path": "~/Shitty Methods"
+      "path": "~/Dehydrator"
     },
     {
       "name": "DehydratorOff",
@@ -244,7 +243,8 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dehydrator_off"
+      "registry_name": "dehydrator_off",
+      "path": "~/Dehydrator"
     },
     {
       "name": "DehydratorOn",
@@ -252,7 +252,8 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dehydrator_on"
+      "registry_name": "dehydrator_on",
+      "path": "~/Dehydrator"
     },
     {
       "name": "DehydratorFuel",
@@ -280,7 +281,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Dehydrator"
     },
     {
       "name": "DehydratorKelpSmelt",
@@ -308,7 +310,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Dehydrator"
     },
     {
       "name": "DehydratorDry",
@@ -336,53 +339,8 @@
             "type": "world"
           }
         ]
-      }
-    },
-    {
-      "name": "ShittyOricalcumArmor",
-      "type": "armor",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shitty_oricalcum_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
-      "name": "ShittyOricalcumArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shitty_oricalcum_armor_helmet_recipe"
-    },
-    {
-      "name": "ShittyOricalcumArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shitty_oricalcum_armor_body_recipe"
-    },
-    {
-      "name": "ShittyOricalcumArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shitty_oricalcum_armor_leggings_recipe"
-    },
-    {
-      "name": "ShittyOricalcumArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shitty_oricalcum_armor_boots_recipe"
+      },
+      "path": "~/Dehydrator"
     },
     {
       "name": "Atlantean",
@@ -424,7 +382,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Dehydrator"
     },
     {
       "name": "BudgetHelmet",
@@ -480,7 +439,8 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "slime_weed_block"
+      "registry_name": "slime_weed_block",
+      "path": "~/Slimeweed"
     },
     {
       "name": "SlimeWeedBlockGrown",
@@ -488,7 +448,8 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "slime_weed_block_grown"
+      "registry_name": "slime_weed_block_grown",
+      "path": "~/Slimeweed"
     },
     {
       "name": "PlantBases",
@@ -496,7 +457,8 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "plant_bases"
+      "registry_name": "plant_bases",
+      "path": "~/Slimeweed"
     },
     {
       "name": "SlimeWeedBlockUpdateTick",
@@ -524,7 +486,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Slimeweed"
     },
     {
       "name": "SummonerAquatis",
@@ -540,7 +503,8 @@
       "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "slime_weed_block_extra_grown"
+      "registry_name": "slime_weed_block_extra_grown",
+      "path": "~/Slimeweed"
     },
     {
       "name": "SlimeWeedBlockGrownUpdateTick",
@@ -568,7 +532,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Slimeweed"
     },
     {
       "name": "SlimeWeedBlockExtraGrownUpdateTick",
@@ -596,6 +561,948 @@
             "type": "world"
           }
         ]
+      },
+      "path": "~/Slimeweed"
+    },
+    {
+      "name": "DehydratorCraft",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dehydrator_craft",
+      "path": "~/Dehydrator"
+    },
+    {
+      "name": "AgarJellyBerries",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agar_jelly_berries",
+      "path": "~/Slimeweed"
+    },
+    {
+      "name": "SlimeweedHarvest",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimeweed_harvest",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Slimeweed"
+    },
+    {
+      "name": "SlimeweedBaselessBreakSelf",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimeweed_baseless_break_self",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Slimeweed"
+    },
+    {
+      "name": "ValidSlimeweedBase",
+      "type": "tag",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valid_slimeweed_base",
+      "path": "~/Slimeweed"
+    },
+    {
+      "name": "SlimeweedGrownBreakSelf",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimeweed_grown_break_self",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Slimeweed"
+    },
+    {
+      "name": "SlimeweedExtraGrownBaseless",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimeweed_extra_grown_baseless",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Slimeweed"
+    },
+    {
+      "name": "SlimyPolypDead",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimy_polyp_dead",
+      "path": "~/Slimeweed"
+    },
+    {
+      "name": "SlimyPolyp",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimy_polyp",
+      "path": "~/Slimeweed"
+    },
+    {
+      "name": "ReviveSlimyPolypRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revive_slimy_polyp_recipe",
+      "path": "~/Slimeweed"
+    },
+    {
+      "name": "PlaceSlimeweedFromPolyp",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "place_slimeweed_from_polyp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Slimeweed"
+    },
+    {
+      "name": "StonewoodWood",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_wood",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodLog",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_log",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodPlanks",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_planks",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodLeaves",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_leaves",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodStairs",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_stairs",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodSlab",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_slab",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodFence",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_fence",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodFenceGate",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_fence_gate",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodPressurePlate",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_pressure_plate",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodButton",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_button",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodItemsTag",
+      "type": "tag",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_items_tag",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodWoodRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_wood_recipe",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_planks_recipe",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_stairs_recipe",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_slab_recipe",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_fence_recipe",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_fence_gate_recipe",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_pressure_plate_recipe",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodButtonRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_button_recipe",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodStickRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_stick_recipe",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "SneakyWoodTag",
+      "type": "tag",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sneaky_wood_tag",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodSapling",
+      "type": "plant",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_sapling",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodGrow",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_grow",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "StonewoodReplaceableBlocks",
+      "type": "tag",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonewood_replaceable_blocks",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "PetrifiedStonewoodSapling",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "petrified_stonewood_sapling",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "ReviveStonewoodSapling",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revive_stonewood_sapling",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "AtlanteanFullSuitBreathing",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atlantean_full_suit_breathing",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hackedunderwaterruinsmall",
+      "type": "loottable",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hackedunderwaterruinsmall"
+    },
+    {
+      "name": "DeadSpinefruitCutting",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_spinefruit_cutting",
+      "path": "~/Spinefruit"
+    },
+    {
+      "name": "SpinefruitCutting",
+      "type": "item",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinefruit_cutting",
+      "path": "~/Spinefruit"
+    },
+    {
+      "name": "ReviveSpinefruitCutting",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revive_spinefruit_cutting",
+      "path": "~/Spinefruit"
+    },
+    {
+      "name": "AlternateReviveSlimyPolyp",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_revive_slimy_polyp",
+      "path": "~/Slimeweed"
+    },
+    {
+      "name": "ScottTheWoz",
+      "type": "painting",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scott_the_woz"
+    },
+    {
+      "name": "FriedSpinefruit",
+      "type": "food",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fried_spinefruit",
+      "path": "~/Spinefruit"
+    },
+    {
+      "name": "SpinefruitOuch",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinefruit_ouch",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Spinefruit"
+    },
+    {
+      "name": "Spinefruit",
+      "type": "food",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinefruit",
+      "path": "~/Spinefruit"
+    },
+    {
+      "name": "TinySpinefruitBush",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiny_spinefruit_bush",
+      "path": "~/Spinefruit"
+    },
+    {
+      "name": "SmallSpinefruitBush",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_spinefruit_bush",
+      "path": "~/Spinefruit"
+    },
+    {
+      "name": "MediumSpinefruitBush",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medium_spinefruit_bush",
+      "path": "~/Spinefruit"
+    },
+    {
+      "name": "SpinefruitBush",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinefruit_bush",
+      "path": "~/Spinefruit"
+    },
+    {
+      "name": "ValidSpinefruitBase",
+      "type": "tag",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valid_spinefruit_base",
+      "path": "~/Spinefruit"
+    },
+    {
+      "name": "SpinefruitGeneralGrow",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinefruit_general_grow",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Spinefruit"
+    },
+    {
+      "name": "SpinefruitGeneralBreakSelf",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinefruit_general_break_self",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Spinefruit"
+    },
+    {
+      "name": "SpinefruitCuttingPlace",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinefruit_cutting_place",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Spinefruit"
+    },
+    {
+      "name": "FullBushBreak",
+      "type": "loottable",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "full_bush_break",
+      "path": "~/Spinefruit"
+    },
+    {
+      "name": "FrySpinefruit",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fry_spinefruit",
+      "path": "~/Spinefruit"
+    },
+    {
+      "name": "SmeltStonefruit",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_stonefruit",
+      "path": "~/Spinefruit"
+    },
+    {
+      "name": "AlternateStonewoodReive",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_stonewood_reive",
+      "path": "~/Stonewood"
+    },
+    {
+      "name": "AlternateReviveSpinefruit",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_revive_spinefruit",
+      "path": "~/Spinefruit"
+    },
+    {
+      "name": "FirstTimeModder",
+      "type": "achievement",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_time_modder"
+    },
+    {
+      "name": "HobbesApproved",
+      "type": "achievement",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hobbes_approved"
+    },
+    {
+      "name": "Frankenfood",
+      "type": "achievement",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frankenfood"
+    },
+    {
+      "name": "AwardJeffGoldblum",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "award_jeff_goldblum",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlatoWasRight",
+      "type": "achievement",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plato_was_right"
+    },
+    {
+      "name": "FinishTheJob",
+      "type": "achievement",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finish_the_job"
+    },
+    {
+      "name": "AwardFinishTheJob",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "award_finish_the_job",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThisIsABucket",
+      "type": "achievement",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "this_is_a_bucket"
+    },
+    {
+      "name": "AwardThisIsABucket",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "award_this_is_a_bucket",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheresMore",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theres_more",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheresMoreCheevo",
+      "type": "achievement",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theres_more_cheevo"
+    },
+    {
+      "name": "FirstTimeModderAward",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_time_modder_award",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThatHurt",
+      "type": "achievement",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "that_hurt"
+    },
+    {
+      "name": "ClearlyYouDont",
+      "type": "achievement",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clearly_you_dont"
+    },
+    {
+      "name": "AwardClearly",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "award_clearly",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
       }
     }
   ],
@@ -603,35 +1510,91 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.summoner_aquatis.sponge_dryer": "Dehydrator",
-      "item.summoner_aquatis.shitty_oricalcum_armor_leggings": "ShittyOricalcum Leggings",
-      "item.summoner_aquatis.bottomless_bucket_full": "Bottomless Bucket (Full)",
-      "item.summoner_aquatis.atlantean_boots": "Atlantean Boots",
-      "block.summoner_aquatis.dehydrator_off": "Dehydrator",
-      "block.summoner_aquatis.dehydrator_on": "Dehydrator Off",
-      "item.summoner_aquatis.atlantean_helmet": "Atlantean Helmet",
+      "block.summoner_aquatis.stonewood_stairs": "Stonewood Stairs",
+      "advancements.hobbes_approved.title": "Sovereign of the deep",
+      "block.summoner_aquatis.stonewood_sapling": "Stonewood Sapling",
+      "item.summoner_aquatis.agar_jelly_berries": "Agar Jelly Berries",
+      "advancements.hobbes_approved.descr": "Equip a full set of Leviathan Armour",
       "item.summoner_aquatis.defective_pickaxe": "Defective Pickaxe",
-      "block.summoner_aquatis.slime_weed_block_extra_grown": "Slime Weed",
-      "item.summoner_aquatis.atlantean_leggings": "Atlantean Leggings",
-      "item.summoner_aquatis.shitty_oricalcum_armor_helmet": "ShittyOricalcum Helmet",
-      "block.summoner_aquatis.slime_weed_block_grown": "Slime Weed",
-      "item.summoner_aquatis.orichalcum": "Atlantean Debris",
-      "item.summoner_aquatis.bottomless_bucket_empty": "Bottomless Bucket (Empty)",
-      "block.summoner_aquatis.slime_weed_block": "Slime Weed",
-      "item.summoner_aquatis.shitty_oricalcum_armor_chestplate": "ShittyOricalcum Chestplate",
-      "item.summoner_aquatis.atlantean_chestplate": "Atlantean Body",
-      "itemGroup.tabsummoner_aquatis": "Summoner Aquatis",
-      "block.summoner_aquatis.atlantean_debris": "Atlantean Debris",
+      "block.summoner_aquatis.spinefruit_bush": "Spinefruit Bush",
+      "item.summoner_aquatis.spinefruit_cutting": "Spinefruit Cutting",
+      "advancements.clearly_you_dont.title": "Clearly you don\u0027t own one",
+      "advancements.theres_more_cheevo.descr": "NO (Fill a bottomless bucket)",
       "block.summoner_aquatis.orichalcum_block": "Block of Orichalcum",
+      "block.summoner_aquatis.stonewood_planks": "Stonewood Planks",
+      "block.summoner_aquatis.small_spinefruit_bush": "Small Spinefruit Bush",
       "item.summoner_aquatis.orichalcum_bar": "Orichalcum Bar",
-      "item.summoner_aquatis.shitty_oricalcum_armor_boots": "ShittyOricalcum Boots"
+      "block.summoner_aquatis.stonewood_fence_gate": "Stonewood Fence Gate",
+      "advancements.first_time_modder.descr": "Craft the turbo pickaxe 90000000",
+      "block.summoner_aquatis.stonewood_pressure_plate": "Stonewood Pressure Plate",
+      "advancements.frankenfood.descr": "Revive an ancient plant",
+      "item.summoner_aquatis.bottomless_bucket_full": "Bottomless Bucket (Full)",
+      "item.summoner_aquatis.dead_spinefruit_cutting": "Dried Spinefruit Cutting",
+      "item.summoner_aquatis.atlantean_boots": "Leviathan Boots",
+      "block.summoner_aquatis.dehydrator_on": "Dehydrator Off",
+      "advancements.that_hurt.descr": "Eat a raw spinefruit",
+      "block.summoner_aquatis.slime_weed_block_grown": "Slime Weed",
+      "block.summoner_aquatis.medium_spinefruit_bush": "Medium Spinefruit Bush",
+      "block.summoner_aquatis.stonewood_leaves": "Stonewood Leaves",
+      "block.summoner_aquatis.stonewood_wood": "Stonewood Wood",
+      "block.summoner_aquatis.stonewood_slab": "Stonewood Slab",
+      "advancements.this_is_a_bucket.title": "This... Is A Bucket",
+      "block.summoner_aquatis.dehydrator_off": "Dehydrator",
+      "item.summoner_aquatis.atlantean_helmet": "Leviathan Helmet",
+      "advancements.finish_the_job.title": "Finish the job",
+      "advancements.this_is_a_bucket.descr": "DEAR GOD (Craft a bottomless bucket)",
+      "block.summoner_aquatis.stonewood_button": "Stonewood Button",
+      "advancements.finish_the_job.descr": "Refine a bar of Orichalcum",
+      "item.summoner_aquatis.bottomless_bucket_empty": "Bottomless Bucket (Empty)",
+      "advancements.plato_was_right.descr": "Find the remnants of a lost civilization ",
+      "block.summoner_aquatis.atlantean_debris": "Atlantean Debris",
+      "advancements.plato_was_right.title": "Aquatis",
+      "advancements.theres_more_cheevo.title": "There\u0027s more.",
+      "item.summoner_aquatis.petrified_stonewood_sapling": "Petrified Stonewood Sapling",
+      "item.summoner_aquatis.slimy_polyp_dead": "Petrified Slimy Polyp",
+      "item.summoner_aquatis.fried_spinefruit": "Fried Spinefruit",
+      "advancements.that_hurt.title": "That hurt",
+      "block.summoner_aquatis.stonewood_fence": "Stonewood Fence",
+      "advancements.first_time_modder.title": "First Time Modder",
+      "block.summoner_aquatis.slime_weed_block_extra_grown": "Slime Weed",
+      "item.summoner_aquatis.atlantean_leggings": "Leviathan Leggings",
+      "advancements.clearly_you_dont.descr": "Craft a dehydrator",
+      "block.summoner_aquatis.stonewood_log": "Stonewood Log",
+      "item.summoner_aquatis.spinefruit": "Spinefruit",
+      "item.summoner_aquatis.orichalcum": "Atlantean Debris",
+      "block.summoner_aquatis.slime_weed_block": "Slime Weed",
+      "item.summoner_aquatis.atlantean_chestplate": "Leviathan Chestpiece",
+      "block.summoner_aquatis.tiny_spinefruit_bush": "Tiny Spinefruit Bush",
+      "itemGroup.tabsummoner_aquatis": "Summoner Aquatis",
+      "item.summoner_aquatis.slimy_polyp": "Slimy Polyp",
+      "advancements.frankenfood.title": "Life finds a way"
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
-        "name": "Shitty Methods",
+        "name": "Basic Orichalcum",
+        "children": []
+      },
+      {
+        "name": "Bottomless Bucket",
+        "children": []
+      },
+      {
+        "name": "Dehydrator",
+        "children": []
+      },
+      {
+        "name": "Slimeweed",
+        "children": []
+      },
+      {
+        "name": "Stonewood",
+        "children": []
+      },
+      {
+        "name": "Spinefruit",
         "children": []
       }
     ]

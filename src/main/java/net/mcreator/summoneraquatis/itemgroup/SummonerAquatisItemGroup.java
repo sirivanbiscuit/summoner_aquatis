@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.summoneraquatis.item.DefectivePickaxeItem;
+import net.mcreator.summoneraquatis.block.OrichalcumOreBlock;
 import net.mcreator.summoneraquatis.SummonerAquatisModElements;
 
 @SummonerAquatisModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class SummonerAquatisItemGroup extends SummonerAquatisModElements.ModElem
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(DefectivePickaxeItem.block);
+				return new ItemStack(OrichalcumOreBlock.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)

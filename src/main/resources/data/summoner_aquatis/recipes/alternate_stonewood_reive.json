@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "summoner_aquatis:orichalcum_bar"
+    },
+    {
+      "item": "summoner_aquatis:petrified_stonewood_sapling"
+    },
+    {
+      "item": "summoner_aquatis:stonewood_log"
+    },
+    {
+      "item": "summoner_aquatis:stonewood_leaves"
+    },
+    {
+      "item": "summoner_aquatis:stonewood_leaves"
+    },
+    {
+      "item": "summoner_aquatis:stonewood_leaves"
+    }
+  ],
+  "result": {
+    "item": "summoner_aquatis:stonewood_sapling",
+    "count": 64
+  }
+}

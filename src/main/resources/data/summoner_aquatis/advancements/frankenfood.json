@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "summoner_aquatis:slimy_polyp"
+    },
+    "title": {
+      "translate": "advancements.frankenfood.title"
+    },
+    "description": {
+      "translate": "advancements.frankenfood.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "frankenfood": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "summoner_aquatis:finish_the_job"
+}

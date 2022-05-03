@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "summoner_aquatis:blocks/stonewood_sapling3",
+    "particle": "summoner_aquatis:blocks/stonewood_sapling3"
+  }
+}

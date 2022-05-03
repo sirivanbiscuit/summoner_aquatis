@@ -1,0 +1,8 @@
+{
+  "parent": "summoner_aquatis:custom/mediumspinefruitbush",
+  "textures": {
+    "all": "summoner_aquatis:blocks/spinefruit_leavesfruitless",
+    "particle": "summoner_aquatis:blocks/spinefruit_leavesfruitless",
+    "0": "summoner_aquatis:blocks/spinefruit_leavesfruitless"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AgarJellyBerries"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AgarJellyBerries"
+      },
+      {
+        "value": "CUSTOM:SlimyPolypDead"
+      },
+      {
+        "value": "CUSTOM:AgarJellyBerries"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AgarJellyBerries"
+      },
+      {
+        "value": "CUSTOM:OrichalcumBar"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SlimyPolyp"
+    },
+    "name": "alternate_revive_slimy_polyp",
+    "namespace": "mod"
+  }
+}

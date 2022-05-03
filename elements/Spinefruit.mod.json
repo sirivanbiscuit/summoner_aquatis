@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "spinefruit",
+    "customModelName": "Normal",
+    "name": "Spinefruit",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "Rather prickly. Cook it first"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SummonerAquatis"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 2,
+    "saturation": 0.3,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "SpinefruitOuch"
+    }
+  }
+}

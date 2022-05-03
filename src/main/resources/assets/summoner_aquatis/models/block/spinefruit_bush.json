@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "summoner_aquatis:blocks/spinefruitbushbetter",
+    "up": "summoner_aquatis:blocks/spinefruitbushbetter",
+    "north": "summoner_aquatis:blocks/spinefruitbushbetter",
+    "east": "summoner_aquatis:blocks/spinefruitbushbetter",
+    "south": "summoner_aquatis:blocks/spinefruitbushbetter",
+    "west": "summoner_aquatis:blocks/spinefruitbushbetter",
+    "particle": "summoner_aquatis:blocks/spinefruitbushbetter"
+  }
+}

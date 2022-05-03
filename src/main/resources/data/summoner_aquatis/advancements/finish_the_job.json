@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "summoner_aquatis:orichalcum_bar"
+    },
+    "title": {
+      "translate": "advancements.finish_the_job.title"
+    },
+    "description": {
+      "translate": "advancements.finish_the_job.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "finish_the_job": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "summoner_aquatis:plato_was_right"
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Items.SLIME_BALL"
+      },
+      {
+        "value": "Items.SWEET_BERRIES"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.KELP"
+      },
+      {
+        "value": "CUSTOM:SlimyPolypDead"
+      },
+      {
+        "value": "Blocks.HORN_CORAL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.TWISTING_VINES"
+      },
+      {
+        "value": "CUSTOM:OrichalcumBar"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SlimyPolyp"
+    },
+    "name": "revive_slimy_polyp_recipe",
+    "namespace": "mod"
+  }
+}

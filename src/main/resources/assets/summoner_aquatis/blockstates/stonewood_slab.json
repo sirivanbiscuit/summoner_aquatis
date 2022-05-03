@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "summoner_aquatis:block/stonewood_slab"
+    },
+    "type=top": {
+      "model": "summoner_aquatis:block/stonewood_slab_top"
+    },
+    "type=double": {
+      "model": "summoner_aquatis:block/stonewood_slab_full"
+    }
+  }
+}

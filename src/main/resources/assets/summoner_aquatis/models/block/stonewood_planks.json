@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "summoner_aquatis:blocks/stonewood_planks",
+    "particle": "summoner_aquatis:blocks/stonewood_planks"
+  }
+}

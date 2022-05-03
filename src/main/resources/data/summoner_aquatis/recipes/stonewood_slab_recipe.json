@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "summoner_aquatis:stonewood_planks"
+    },
+    "1": {
+      "item": "summoner_aquatis:stonewood_planks"
+    },
+    "2": {
+      "item": "summoner_aquatis:stonewood_planks"
+    }
+  },
+  "result": {
+    "item": "summoner_aquatis:stonewood_slab",
+    "count": 6
+  }
+}

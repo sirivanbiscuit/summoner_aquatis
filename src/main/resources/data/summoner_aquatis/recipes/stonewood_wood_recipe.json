@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "summoner_aquatis:stonewood_log"
+    },
+    "1": {
+      "item": "summoner_aquatis:stonewood_log"
+    },
+    "2": {
+      "item": "summoner_aquatis:stonewood_log"
+    },
+    "3": {
+      "item": "summoner_aquatis:stonewood_log"
+    }
+  },
+  "result": {
+    "item": "summoner_aquatis:stonewood_wood",
+    "count": 3
+  }
+}

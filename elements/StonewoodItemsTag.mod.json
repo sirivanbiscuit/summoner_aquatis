@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:StonewoodWood"
+      },
+      {
+        "value": "CUSTOM:StonewoodLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "stonewood_log",
+    "namespace": "forge"
+  }
+}
